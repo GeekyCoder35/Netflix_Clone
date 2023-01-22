@@ -1,0 +1,32 @@
+.productList{
+    flex: 5;
+}
+
+.productListUserdata{
+    display: flex;
+    align-items: center;
+}
+
+.productListImg{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;    
+}
+
+.productListActionIcon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:100%;
+}
+
+.productListEditActionIcon{
+    color: green;
+    cursor: pointer;
+}
+
+.productListDeleteActionIcon{
+    color: red;
+    cursor: pointer;
+}

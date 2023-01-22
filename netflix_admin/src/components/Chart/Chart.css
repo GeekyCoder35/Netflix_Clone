@@ -1,0 +1,17 @@
+.chart{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 4px solid;
+    margin-top: 30px;
+}
+
+.chartTitle{
+    font-size: 25px;
+}
+
+.homeWidgets{
+    display: flex;
+    margin: 20px;
+}
+

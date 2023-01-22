@@ -1,0 +1,31 @@
+.UserList{
+    flex: 5;
+}
+
+.userListUserdata{
+    display: flex;
+    align-items: center;
+}
+
+.userListImg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.userListActionIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userListEditActionIcon{
+    color: green;
+    margin-right: 10px;    
+}
+
+.userListDeleteActionIcon{
+    color: red;    
+}

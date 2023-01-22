@@ -1,0 +1,159 @@
+.user{
+    flex: 5;
+}
+
+.userTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    color:white;
+    background-color: teal;
+    font-size: 16px;
+    margin: 0 15px;
+}
+
+.userContainer{
+    display: flex;
+    margin-top: 15px;
+}
+
+.userShow{
+    flex: 2;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin: 0px 5px 0px 0px;
+}
+
+.userUpdate{
+    flex: 3;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin: 0px 5px 0px 5px;
+}
+
+.userShowTop{
+    display: flex;
+    align-items: center;
+}
+
+.userShowTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.userShowImg{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.userShowName{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.userShowBottom{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.userButtomAccountDetails{
+    font-weight: 500;
+    font-size: 20px;
+    color: red;
+
+}
+
+.userButtomContactDetails{
+    font-weight: 500;
+    font-size: 20px;
+    color: red;
+
+}
+
+.showUserButtomInfo{
+    display: flex; 
+    align-items: center;
+    margin: 12px 0px;
+}
+
+.showUserButtomUserDetailsIcon{
+    font-size: 15px !important;    
+}
+
+.userShowInfoTitle{
+    margin-left: 10px;
+}
+
+.userUpdateTitle{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.userUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.userUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;    
+}
+
+.userUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.userUpdateInput{
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #000;
+    width: 250px;
+}
+
+.userUpdateFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userUpdateUpload{
+    display: flex;
+    align-items: center;
+
+}
+
+.userUpdateButton{
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: 600;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.userUpdateImg{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-right: 30px;    
+}
+
